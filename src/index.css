@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("./assets/bgdjango.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255,
+      255,
+      255,
+      0.7);
+      font-family: "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Navbar */
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  background-color: aqua;
+}
+
+.logo img {
+  height: 4em;
+  width: 6em;
+  align-content: center;
+}
+
+
+
+.nav-container {
+  background-color: #d8be82;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  gap: 40px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+/* Navbar end */
+
+.welcome-card {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  text-align: center;
+  max-width: 800px;
+  background-color: hsl(41, 87%, 85%);
+
+}
+
+.card-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #614c1a;
+
+}
+
+
+.card-text {
+  font-size: 18px;
+  color: #8c795d;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card-box {
+  background-color: #fff;
+  padding: 35px;
+  height: 9rem;
+  width: 14rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+  text-align: center;
+  color: #614c1a;
+  font-size: 20px;
+}
+
+
+.instruction-card {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 800px;
+  background-color: hsl(41, 87%, 85%);
+}
+
+
+.instruction-for-companies {
+  margin: 10px 0;
+}
+
+.compaines-content {
+  position: relative;
+  left: 35px;
+}
+
+.candidates-content {
+  position: relative;
+  left: 35px;
+}
+
+
+
+.tech-giants {
+  background-color: hsl(41, 87%, 85%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  height: 250px;
+}
+
+.tech-giants-text {
+  font-size: 2.2rem;
+}
+
+.tech-companies img {
+  width: 80px;
+  height: 80px;
+  margin: 30px 50px;
+  transition: transform 0.3s ease;
+}
+
+.tech-companies img:hover {
+  transform: scale(1.1);
+}
+
+.users-card {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  text-align: center;
+  max-width: 800px;
+  background-color: hsl(41, 87%, 85%);
+}
+
+.users-main-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 10px 5px;
+  height: 20rem;
+  width: 12rem;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #614c1a;
+
+}
+
+.card img {
+  width: 8rem;
+  height: 10rem;
+  border-radius: 100px;
+}
+
+.card-footer {
+  margin: 10px 0;
+  font-size: bold;
+}
+
+
+
+
+
+.footer {
+  background-color: hsl(41, 87%, 85%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+.footer-item {
+  margin: 40px 15px;
+
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #614c1a;
+  font-size: bold;
+
+}
+
+.job-list {
+  padding: 40x;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  text-align: center;
+  max-width: 1100px;
+  height: 1000px;
+  background-color: #f5f5f5;
+
+}
+
+.job-card-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  color: #614c1a;
+
+}
+
+.job-card {
+  background-color: #f5d492;
+  height: 15rem;
+  width: 20rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 20px;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #5a4513;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-card p {
+  margin: 20px auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.btn {
+  background-color: #8b5a2b;
+  border-color: #8b5a2b;
+  padding: 12px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 3rem;
+  width: 5.5rem;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #6e46db;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e7e1db;
+}
+
+.form-container {
+  padding: 40x;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  text-align: center;
+  max-width: 500px;
+  height: 600px;
+  background-color: #eec587;
+
+
+}
+
+.form-input {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  margin: 10px auto;
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.form-description {
+  height: 70px;
+  width: 300px;
+  display: flex;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+.submit-btn {
+  height: 2.4em;
+  width: 8em;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+  color: #5a4513;
+  font-weight: bold;
+}
+
+.back-to-jobs {
+  background-color: #8b5a2b;
+  border-color: #8b5a2b;
+  padding: 4px;
+  height: 2em;
+  width: 4.3em;
+  border-radius: 5px;
+  position: relative;
+  left: 215px;
+  top: 8px;
+
+}
+
+.jobs-data {
+  display: flex;
+  background-color: #e7e1db;
+  position: relative;
+  top: 50px;
+  height: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.jobs-data p {
+  margin: 0px auto;
+
+}
+
+
+/* candidates section */
+
+.candidate-list {
+  padding: 40x;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  text-align: center;
+  max-width: 1100px;
+  height: 1000px;
+  background-color: #f5f5f5;
+
+}
+
+.candidate-card-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  color: #614c1a;
+
+}
+
+.candidate-card {
+  background-color: #f5d492;
+  height: 15rem;
+  width: 20rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 20px;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #5a4513;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.candidate-card:hover {
+  transform: translateY(-5px);
+}
+
+.candidate-card p {
+  margin: 20px auto;
+}
+
+.candidate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.candidate-btn {
+  background-color: #8b5a2b;
+  border-color: #8b5a2b;
+  padding: 12px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 3rem;
+  width: 8rem;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #6e46db;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e7e1db;
+}
+
+.candidates-submit-btn {
+  height: 2.4em;
+  width: 10em;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+  color: #8b5a2b;
+  font-weight: bold;
+}
+
+.back-to-candidates {
+  background-color: #8b5a2b;
+  border-color: #8b5a2b;
+  padding: 4px;
+  height: 2em;
+  width: 4.3em;
+  border-radius: 5px;
+  position: relative;
+  left: 215px;
+  top: 8px;
+}
+
+.candidate-data {
+  display: flex;
+  background-color: #e7e1db;
+  position: relative;
+  top: 50px;
+  height: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.candidate-data p {
+  margin: 0px auto;
+
+}
+
+
+/* login page css */
+
+.login-container {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  padding: 40px;
+  background-color: #eec587;
+  border: 1px solid #ccc;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0.1, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login-container h2 {
+  margin: 10px auto;
+}
+
+.login-container p {
+  margin: 12px auto;
+}
+
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #8b5a2b;
+  border-color: #8b5a2b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* sign up css */
+
+
+.signup-container {
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  padding: 40px;
+  background-color: #eec587;
+  border: 1px solid #ccc;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0.1, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+}
